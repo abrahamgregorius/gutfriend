@@ -12,14 +12,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 export const metadata = {
   title: "GutFriend",
   description: "Your stomach’s best friend.",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    viewportFit: "cover", // biar safe area aktif
-  },
 };
 
 export default function RootLayout({ children }) {

@@ -8,8 +8,8 @@ export default function Footer() {
   return (
     <>
       <div className="footer footer-nav fixed flex justify-center items-center bottom-0 h-[100px] max-w-md w-full border-2 border-gray-300">
-        <div className="grid grid-cols-5 gap-6">
-          <Link href="/" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/" ? "transition duration-300 scale-125" : ""} `}>
+        <div className="grid grid-cols-5 gap-4">
+          <Link href="/" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/" ? "transition duration-200 scale-[130%]" : ""} `}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -23,7 +23,7 @@ export default function Footer() {
             </svg>
             {/* <span className="font-semibold text-sm">Home</span> */}
           </Link>
-          <Link href="/tracker" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/tracker" ? "transition duration-300 scale-125" : ""} `}>
+          <Link href="/tracker" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/tracker" ? "transition duration-200 scale-[130%]" : ""} `}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -37,7 +37,7 @@ export default function Footer() {
             </svg>{" "}
             {/* <span className="font-semibold text-sm">Tracking</span> */}
           </Link>
-          <Link href="/chat" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/chat" ? "transition duration-300 scale-125": ""} `}>
+          <Link href="/chat" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/chat" ? "transition duration-200 scale-[130%]": ""} `}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -51,7 +51,7 @@ export default function Footer() {
             </svg>
             {/* <span className="font-semibold text-sm">Chat</span> */}
           </Link>
-          <Link href="/community" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/community" ? "transition duration-300 scale-125" : ""}`}>
+          <Link href="/community" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/community" ? "transition duration-200 scale-[130%]" : ""}`}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -65,7 +65,7 @@ export default function Footer() {
             </svg>
             {/* <span className="font-semibold text-sm">Community</span> */}
           </Link>
-          <Link href="/wellness" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/wellness" ? "transition duration-300 scale-125" : ""} `}>
+          <Link href="/wellness" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/wellness" ? "transition duration-200 scale-[130%]" : ""} `}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
