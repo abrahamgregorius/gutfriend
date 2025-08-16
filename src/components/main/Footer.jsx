@@ -4,11 +4,10 @@ import { usePathname } from "next/navigation";
 
 export default function Footer() {
   const pathname = usePathname();
-  console.log(pathname)
 
   return (
     <>
-      <div className="footer footer-nav fixed flex justify-center items-center bottom-0 h-[100px] w-[320px] border-2 border-gray-300">
+      <div className="footer footer-nav fixed flex justify-center items-center bottom-0 h-[100px] w-[375px] border-2 border-gray-300">
         <div className="grid grid-cols-5 gap-2">
           <Link href="/" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/" ? "transition duration-300 scale-125" : ""} `}>
             <svg
