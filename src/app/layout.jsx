@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "GutFriend",
   description: "Your stomach’s best friend.",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    viewportFit: "cover", // biar safe area aktif
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -23,7 +28,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full flex justify-center items-center bg-gradient-to-b from-red-400 to-red-950`}
       >
-        <div className="app bg-white w-[375px] min-h-screen">
+        <div className="app bg-white w-full max-w-md min-h-screen">
           <div className="main p-4 mb-[100px]">{children}</div>
           <Footer></Footer>
         </div>

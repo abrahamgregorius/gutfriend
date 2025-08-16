@@ -7,13 +7,13 @@ export default function Footer() {
 
   return (
     <>
-      <div className="footer footer-nav fixed flex justify-center items-center bottom-0 h-[100px] w-[375px] border-2 border-gray-300">
-        <div className="grid grid-cols-5 gap-2">
+      <div className="footer footer-nav fixed flex justify-center items-center bottom-0 h-[100px] max-w-md w-full border-2 border-gray-300">
+        <div className="grid grid-cols-5 gap-6">
           <Link href="/" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/" ? "transition duration-300 scale-125" : ""} `}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
             >
               <path
@@ -26,8 +26,8 @@ export default function Footer() {
           <Link href="/tracker" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/tracker" ? "transition duration-300 scale-125" : ""} `}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
             >
               <path
@@ -40,8 +40,8 @@ export default function Footer() {
           <Link href="/chat" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/chat" ? "transition duration-300 scale-125": ""} `}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
             >
               <path
@@ -54,8 +54,8 @@ export default function Footer() {
           <Link href="/community" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/community" ? "transition duration-300 scale-125" : ""}`}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
             >
               <path
@@ -68,8 +68,8 @@ export default function Footer() {
           <Link href="/wellness" className={`footer-item flex flex-col items-center p-3 rounded-4xl ${pathname == "/wellness" ? "transition duration-300 scale-125" : ""} `}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
             >
               <path
