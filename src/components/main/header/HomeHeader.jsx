@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HomeHeader() {
   return (
     <>
-      <div className="header bg-[#4F46E5] p-6">
+      <div className="header from-[#4F46E5] to-[#5accd4] bg-gradient-to-r p-6">
         <div className="header-top flex flex-row justify-between">
           <div className="header-1 flex flex-row gap-3 items-center">
             <div className="header-logo">
@@ -53,13 +53,15 @@ export default function HomeHeader() {
           </div>
         </div>
         <div className="header-main mt-4">
-            <div className="flex p-6 items-center bg-[#5d56d6] gap-3  rounded-lg">
-                <div className="header-profile-picture">
-                    <Image src={"/profile.jpg"} width={50} height={50} alt="Profile" className="w-[50px] h-[50px] flex justify-center items-center object-center object-cover rounded-full"></Image>
-                </div>
-                <div className="header-hello flex flex-col">
-                    <span className="text-white font-light text-lg">Good morning, Abraham!</span>
-                    <span className="text-white font-light text-sm">How are you feeling today?</span>
+            <div className="">
+                <div className="flex p-6 items-center shadow-2xl shadow-[#383838] gap-3 rounded-lg">
+                    <div className="header-profile-picture">
+                        <Image src={"/profile.jpg"} width={50} height={50} alt="Profile" className="w-[50px] h-[50px] flex justify-center items-center object-center object-cover rounded-full"></Image>
+                    </div>
+                    <div className="header-hello flex flex-col">
+                        <span className="text-white font-light text-lg">Good morning, Abraham!</span>
+                        <span className="text-white font-light text-sm">How are you feeling today?</span>
+                    </div>
                 </div>
             </div>
         </div>
