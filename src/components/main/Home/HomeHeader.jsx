@@ -24,7 +24,7 @@ export default function HomeHeader() {
                 </span>
               </div>
             </div>
-            <div className="header-title flex flex-col ">
+            <div className="header-title flex flex-col">
               <span className="text-white text-lg font-medium">GutFriend</span>
               <span className="text-white text-sm font-light">
                 Your digestive health companion
