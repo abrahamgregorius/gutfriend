@@ -54,7 +54,7 @@ export default function HomeHeader() {
         </div>
         <div className="header-main mt-4">
             <div className="">
-                <div className="flex p-6 items-center shadow-2xl shadow-[#383838] gap-3 rounded-lg">
+                <div className="flex p-6 items-center bg-[#ffffff33] gap-3 rounded-lg">
                     <div className="header-profile-picture">
                         <Image src={"/profile.jpg"} width={50} height={50} alt="Profile" className="w-[50px] h-[50px] flex justify-center items-center object-center object-cover rounded-full"></Image>
                     </div>

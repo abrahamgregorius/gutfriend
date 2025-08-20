@@ -7,7 +7,7 @@ export default function QuickActions() {
         </div>
         <div className="quick-actions-main">
           <div className="grid grid-cols-2 gap-4">
-            <div className="grid-item w-full flex flex-col gap-1 text-white justify-center items-center min-h-[6rem] from-[#3aca59] to-[#079726] bg-gradient-to-r rounded-lg">
+            <button className="grid-item cursor-pointer w-full flex flex-col gap-1 text-white justify-center items-center min-h-[6.5rem] from-[#3aca59] to-[#079726] bg-gradient-to-r rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -20,8 +20,8 @@ export default function QuickActions() {
                 />
               </svg>
               <span className="font-light">Log Symptoms</span>
-            </div>
-            <div className="grid-item w-full flex flex-col gap-1 text-white justify-center items-center min-h-[6rem] from-[#daa84c] to-[#ee8c0b] bg-gradient-to-r rounded-lg">
+            </button>
+            <button className="grid-item cursor-pointer w-full flex flex-col gap-1 text-white justify-center items-center min-h-[6.5rem] from-[#daa84c] to-[#ee8c0b] bg-gradient-to-r rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -34,8 +34,8 @@ export default function QuickActions() {
                 />
               </svg>
               <span className="font-light">Track Meal</span>
-            </div>
-            <div className="grid-item w-full flex flex-col gap-1 text-white justify-center items-center min-h-[6rem] from-[#aa4ac7] to-[#a108c0] bg-gradient-to-r rounded-lg">
+            </button>
+            <button className="grid-item cursor-pointer w-full flex flex-col gap-1 text-white justify-center items-center min-h-[6.5rem] from-[#aa4ac7] to-[#a108c0] bg-gradient-to-r rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -48,8 +48,8 @@ export default function QuickActions() {
                 />
               </svg>
               <span className="font-light">Medication</span>
-            </div>
-            <div className="grid-item w-full flex flex-col gap-1 text-white justify-center items-center min-h-[6rem] from-[#e2418c] to-[#e90893] bg-gradient-to-r rounded-lg">
+            </button>
+            <button className="grid-item cursor-pointer w-full flex flex-col gap-1 text-white justify-center items-center min-h-[6.5rem] from-[#e2418c] to-[#e90893] bg-gradient-to-r rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -62,7 +62,7 @@ export default function QuickActions() {
                 />
               </svg>
               <span className="font-light">Wellness Tips</span>
-            </div>
+            </button>
           </div>
         </div>
       </div>

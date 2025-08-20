@@ -5,6 +5,7 @@ export default function HomeContent() {
         <>
             <div className="main p-6">
                 <QuickActions></QuickActions>
+                
 
 
             </div>
