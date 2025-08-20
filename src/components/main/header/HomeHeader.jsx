@@ -1,17 +1,17 @@
 export default function HomeHeader() {
   return (
     <>
-      <div className="header bg-[#4F46E5] p-4">
+      <div className="header bg-[#4F46E5] p-6">
         <div className="header-top flex flex-row justify-between">
-          <div className="header-1 flex flex-row gap-3">
+          <div className="header-1 flex flex-row gap-3 items-center">
             <div className="header-logo">
-              <div className="w-[50px] h-[50px] flex justify-center items-center relative">
-                <div className="w-[50px] h-[50px] flex justify-center items-center absolute bg-gray-400 opacity-50 rounded-full"></div>
+              <div className="w-[40px] h-[40px] flex justify-center items-center relative">
+                <div className="w-[40px] h-[40px] flex justify-center items-center absolute bg-gray-400 opacity-50 rounded-full"></div>
                 <span className="z-10">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
+                    width="23"
+                    height="23"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -23,21 +23,21 @@ export default function HomeHeader() {
               </div>
             </div>
             <div className="header-title flex flex-col ">
-              <span className="text-white text-xl font-normal">GutFriend</span>
+              <span className="text-white text-xl font-light">GutFriend</span>
               <span className="text-white text-md font-light">
                 Your digestive health companion
               </span>
             </div>
           </div>
-          <div className="header-2">
+          <div className="header-2 flex items-center">
             <div className="header-notification">
-              <div className="w-[50px] h-[50px] flex justify-center items-center relative">
-                <div className="w-[50px] h-[50px] flex justify-center items-center absolute bg-gray-400 opacity-50 rounded-full"></div>
+              <div className="w-[40px] h-[40px] flex justify-center items-center relative">
+                <div className="w-[40px] h-[40px] flex justify-center items-center absolute bg-gray-400 opacity-50 rounded-full"></div>
                 <span className="z-10">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
+                    width="23"
+                    height="23"
                     viewBox="0 0 24 24"
                   >
                     <path
