@@ -25,7 +25,7 @@ export default function HomeHeader() {
               </div>
             </div>
             <div className="header-title flex flex-col ">
-              <span className="text-white text-lg font-light">GutFriend</span>
+              <span className="text-white text-lg font-medium">GutFriend</span>
               <span className="text-white text-sm font-light">
                 Your digestive health companion
               </span>
@@ -52,8 +52,8 @@ export default function HomeHeader() {
             </div>
           </div>
         </div>
-        <div className="header-main mt-7">
-            <div className="flex p-6 items-center bg-[#5d56d6] gap-3 mb-2 rounded-lg">
+        <div className="header-main mt-4">
+            <div className="flex p-6 items-center bg-[#5d56d6] gap-3  rounded-lg">
                 <div className="header-profile-picture">
                     <Image src={"/profile.jpg"} width={50} height={50} alt="Profile" className="w-[50px] h-[50px] flex justify-center items-center object-center object-cover rounded-full"></Image>
                 </div>
